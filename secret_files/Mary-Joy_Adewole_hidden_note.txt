@@ -1,0 +1,3 @@
+Steganography is the practice of concealing a message, file, or piece of information within another, ordinarily non-secret file or message, so that its existence is not apparent to anyone except the sender and intended recipient. Unlike encryption, which scrambles data so it cannot be read without a key but is still visibly present as encrypted data, steganography hides the very existence of the hidden data.
+
+This matters in digital forensics because a suspect can conceal evidence, stolen data, or covert communications inside seemingly innocent files (like photos) that would not otherwise attract attention during a routine review. An examiner unaware of steganographic techniques could miss significant evidence entirely, even while directly examining the carrying file.

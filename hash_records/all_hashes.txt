@@ -1,0 +1,32 @@
+CIP-B102 Lab 8 -- Steganography: Complete Hash Record
+
+=== Carrier Image ===
+_tower_original_image_for_lab.bmp
+  Format: PC bitmap, Windows 3.x, 1365x2265x24
+  SHA-256: 6508bebb94bd8ec0833b9f85580cda4261d89632ddc89e7f9f7093b5e653c4db
+
+=== Guided Exercise (passphrase: 1234) ===
+secret.txt (original)
+  SHA-256: ea48981319df1b021c77de70259951d0a8fb73f30bcda1be983de3aac6251894
+
+tower_stego_lab4.bmp (stego image)
+  SHA-256: 9c44e2b1a9837a47c21f9a02755b66e3e74b1cd30be7b1beab45ea7cbf930fd8
+
+extracted_secret.txt (extracted)
+  SHA-256: ea48981319df1b021c77de70259951d0a8fb73f30bcda1be983de3aac6251894  -> MATCHES original
+  diff result: "Files are identical"
+
+StegSeek result: passphrase "1234" found, original filename "secret.txt" recovered
+
+=== Independent Exercise (passphrase: Happy247) ===
+Mary-Joy_Adewole_hidden_note.txt (original)
+  SHA-256: 29abde7cab0ddce55fa0fd7a6ac24ddae6ac488c48b6e011d5796490a7424634
+
+my_stego.bmp (stego image)
+  SHA-256: 2239639fd2a6553857c471be0f8f76a5d1650408b07e11a61571873ade48b4bd
+
+my_extracted_note.txt (extracted)
+  SHA-256: 29abde7cab0ddce55fa0fd7a6ac24ddae6ac488c48b6e011d5796490a7424634  -> MATCHES original
+  diff result: "Files are identical"
+
+StegSeek result: passphrase "Happy247" found, original filename "Mary-Joy_Adewole_hidden_note.txt" recovered

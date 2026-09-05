@@ -1,0 +1,8 @@
+Copy the actual BMP/extracted files here from your Kali VM:
+- _tower_original_image_for_lab.bmp (carrier)
+- tower_stego_lab4.bmp (stego #1)
+- my_stego.bmp (stego #2)
+- extracted_secret.txt (extracted #1)
+- my_extracted_note.txt (extracted #2)
+
+See the commands in README.md.
