@@ -15,21 +15,6 @@ Course: SBT-DF202 -- Computer and Digital Forensics
   exactly from their full on-screen content (`lab4_wordlist.txt`, `my_wordlist.txt`)
 - `stego_images/` -- placeholder; add the actual BMP files here (see below)
 
-## Adding the real image files
-
-The carrier image and both stego BMP images are binary files that were never
-directly accessible outside the Kali VM -- only their hashes and metadata were
-visible on screen. Copy the real files in with:
-
-    cd ~/CIP-B101_StegoLab_Mary-Joy_Adewole
-    mkdir -p submission/stego_images
-    cp carrier/_tower_original_image_for_lab.bmp submission/stego_images/
-    cp stego/tower_stego_lab4.bmp submission/stego_images/
-    cp stego/my_stego.bmp submission/stego_images/
-    cp extracted/extracted_secret.txt submission/stego_images/
-    cp extracted/my_extracted_note.txt submission/stego_images/
-
-Then replace the placeholder in `stego_images/` with these files.
 
 ## Summary
 
